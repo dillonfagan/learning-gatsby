@@ -4,7 +4,7 @@ import styles from "./header.module.css"
 
 export default () => (
     <header className={styles.siteHeader}>
-        <h2 className={styles.siteLogo}>Helmes</h2>
+        <Link className={styles.siteLogo}><h2>Holmes</h2></Link>
         <nav className={styles.navigation}>
             <Link to="/" className={styles.navigationLink}>About</Link>
             <Link to="/blog" className={styles.navigationLink}>Solutions</Link>
