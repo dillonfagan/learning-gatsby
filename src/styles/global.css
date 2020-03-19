@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Volkhov:wght@400;700&display=swap');
+
+html {
+    color: #2a2a2a;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+p {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: blue;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+
+a:hover {
+    color: darkblue;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 64px;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: darkblue;
+    color: white;
+}

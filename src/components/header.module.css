@@ -1,0 +1,32 @@
+.site-header {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: rgb(200, 200, 200) 1px solid;
+    color: blue;
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.site-logo {
+    margin-left: 3rem;
+}
+
+.navigation {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+}
+
+.navigation-link {
+    color: blue;
+    display: block;
+    font-size: 1.1rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
