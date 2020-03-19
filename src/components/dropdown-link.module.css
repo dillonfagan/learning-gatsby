@@ -1,0 +1,23 @@
+.dropdown-link {
+    height: 96px;
+    line-height: 96px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: rgb(70, 70, 70);
+    min-width: 160px;
+    padding: 1.5rem 2.5rem;
+	z-index: 1;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.dropdown a {
+    color: white;
+}
+
+.dropdown-link:hover .dropdown {
+    display: block;
+}
