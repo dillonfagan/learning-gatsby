@@ -1,0 +1,49 @@
+.site-footer {
+    background-color: rgb(19, 24, 200);
+    color: white;
+    width: 100%;
+}
+
+.site-footer a {
+    color: white;
+}
+
+.site-logo {
+    margin-left: 3rem;
+    text-decoration: none;
+    font-family: 'Volkhov', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+    margin: 0 0 0 auto;
+}
+
+.container {
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr 1fr;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.top-left {
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 2rem;
+}
+
+.top-right {
+    grid-column: 2;
+    grid-row: 1;
+    padding-top: 2rem;
+}
+
+.bottom-left {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.bottom-right {
+    grid-column: 2;
+    grid-row: 2;
+}

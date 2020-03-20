@@ -70,3 +70,7 @@ section {
     background-color: darkblue;
     color: white;
 }
+
+.content {
+    min-height: 95vh;
+}
