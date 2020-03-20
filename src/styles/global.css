@@ -44,12 +44,13 @@ p {
 a {
     color: blue;
     text-underline-offset: 4px;
+    text-decoration: underline;
     text-decoration-thickness: 2px;
 }
 
 a:hover {
     color: darkblue;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 section {

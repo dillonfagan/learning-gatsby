@@ -15,10 +15,18 @@
 .site-logo {
     margin-left: 3rem;
     text-decoration: none;
+    font-family: 'Volkhov', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-right: 0;
 }
 
 .site-logo:hover {
     color: inherit;
+    text-decoration: none;
 }
 
 .navigation {

@@ -16,6 +16,13 @@
 
 .dropdown a {
     color: white;
+    display: block;
+    line-height: 2.25rem;
+    text-decoration: none;
+}
+
+.dropdown a:hover {
+    text-decoration: underline;
 }
 
 .dropdown-link:hover .dropdown {
