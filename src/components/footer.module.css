@@ -1,6 +1,7 @@
 .site-footer {
     background-color: rgb(19, 24, 200);
     color: white;
+    font-size: 0.9rem;
     width: 100%;
 }
 
@@ -23,27 +24,71 @@
 	grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 2fr 1fr;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1050px;
+}
+
+.grid-cell {
+    padding: 3rem 0;
 }
 
 .top-left {
     grid-column: 1;
     grid-row: 1;
-    padding-top: 2rem;
+}
+
+.top-left p{
+    max-width: 20rem;
 }
 
 .top-right {
     grid-column: 2;
     grid-row: 1;
-    padding-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse; 
+    flex-wrap: wrap;
 }
 
 .bottom-left {
     grid-column: 1;
     grid-row: 2;
+    display: flex;
+}
+
+.bottom-left a {
+    margin-right: 1rem;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .bottom-right {
     grid-column: 2;
     grid-row: 2;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 1.5rem;
+}
+
+.bottom-right a {
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 1rem;
+}
+
+.bottom-right a:hover {
+    color: white;
+}
+
+.footer-navigation {
+    display: block;
+}
+
+.footer-navigation a {
+    margin-left: 1rem;
+}
+
+.footer-locations {
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+}
+
+.footer-locations div {
+    margin: 1rem;
 }
