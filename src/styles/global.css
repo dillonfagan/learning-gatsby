@@ -43,14 +43,14 @@ p {
 
 a {
     color: blue;
-    text-underline-offset: 4px;
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
+    text-decoration: none;
 }
 
 a:hover {
     color: darkblue;
+    text-underline-offset: 4px;
     text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 section {
@@ -69,4 +69,8 @@ section {
 .button:hover {
     background-color: darkblue;
     color: white;
+}
+
+.content {
+    min-height: 85vh;
 }
