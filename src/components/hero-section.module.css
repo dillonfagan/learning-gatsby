@@ -1,0 +1,7 @@
+.hero-section {
+    background-color: white;
+    background-image: url(../assets/boston-skyline.png);
+    background-size: 46%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}

@@ -1,0 +1,25 @@
+
+.blue-section {
+    background-color: #ebedfc;
+}
+
+.icon-row {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 0 2rem;
+    justify-content: space-between;
+}
+
+.icon-container {
+    color: darkblue;
+    text-align: center;
+}
+
+.icon {
+    font-size: 3rem;
+}
+
+.icon-container p {
+    margin-top: 0.7rem;
+}
