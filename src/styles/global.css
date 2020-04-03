@@ -73,4 +73,31 @@ section {
 
 .content {
     min-height: 85vh;
+    background-color: #cccccc;
+    margin-top: 7.5rem;
+}
+
+section {
+    background-color: white;
+    background-image: url(../assets/boston-skyline.png);
+    background-size: 46%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin: 0;
+    padding: 6rem 16rem;
+}
+
+aside {
+    max-width: 38rem;
+}
+
+section a {
+    display: inline-block;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+section h1 {
+    color: #f28e2c;
+    font-weight: bold;
 }
