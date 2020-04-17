@@ -15,6 +15,7 @@ h1,
 h2,
 h3,
 h4 {
+    color: blue;
     font-family: "Volkhov", serif;
     font-weight: 400;
 }
@@ -28,6 +29,7 @@ h2 {
 }
 
 h3 {
+    color: #2a2a2a;
     font-size: 1.5rem;
 }
 
@@ -73,4 +75,26 @@ section {
 
 .content {
     min-height: 85vh;
+    margin-top: 7.5rem;
+}
+
+section,
+article {
+    margin: 0;
+    padding: 6rem 20rem;
+}
+
+aside {
+    max-width: 38rem;
+}
+
+section a {
+    display: inline-block;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+section h1 {
+    color: #f28e2c;
+    font-weight: bold;
 }

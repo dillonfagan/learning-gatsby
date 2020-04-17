@@ -1,0 +1,22 @@
+
+section.plain {
+    background-color: white;
+}
+
+.text-box-row {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.text-box-row div {
+    background-color: #fbf9f5;
+    display: block;
+    max-width: 420px;
+    padding: 1.8rem;
+}
+
+.text-box-row h3 {
+    margin-top: 0;
+}
