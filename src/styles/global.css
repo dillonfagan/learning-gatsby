@@ -75,11 +75,11 @@ section {
 
 .content {
     min-height: 85vh;
-    background-color: #cccccc;
     margin-top: 7.5rem;
 }
 
-section {
+section,
+article {
     margin: 0;
     padding: 6rem 20rem;
 }
