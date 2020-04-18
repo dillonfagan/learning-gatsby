@@ -1,7 +1,7 @@
 ---
-path: "/blog/my-first-post"
-date: "2019-05-04"
-title: "Herr Drumpf"
+path: /blog/my-first-post
+date: 2019-05-04
+title: Herr Drumpf :)
 ---
 
 Once upon a time, there was a man named Herr Drumpf.
