@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: dillonfagan/co-op
+  branch: master
 
 media_folder: "/"
 public_folder: "/"
