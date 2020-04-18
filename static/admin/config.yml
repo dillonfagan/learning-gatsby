@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: dillonfagan/co-op
+  name: git-gateway
   branch: master
 
 media_folder: "/"
