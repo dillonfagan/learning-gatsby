@@ -1,9 +1,13 @@
 .card {
     border: 2px blue solid;
     padding: 0;
+    display: block;
+    margin-top: 2rem;
 }
 
 .card-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
 }
