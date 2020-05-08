@@ -13,6 +13,7 @@ export default ({data}) => (
             {data.allMarkdownRemark.nodes.map(post =>
                 <Card
                     title={post.frontmatter.title}
+                    date={post.frontmatter.date}
                     path={post.frontmatter.path}
                 />
             )}
@@ -26,6 +27,7 @@ export const query = graphql`
             nodes {
                 frontmatter {
                     title
+                    date(formatString: "MMMM DD, YYYY")
                     path
                 }
             }
