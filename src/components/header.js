@@ -1,9 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import DropdownLink from "./dropdown-link"
 import styles from "./header.module.css"
 
-export default () => (
+export default ({ data }) => (
 	<header className={styles.siteHeader}>
 		<Link to="/" className={styles.siteLogo}>Holmes</Link>
 		<nav className={styles.navigation}>
@@ -13,6 +13,9 @@ export default () => (
 				<Link to="/">Holmes Design</Link>
 				<Link to="/">Data Analytics & Insight</Link>
 				<Link to="/">Augmented Reality</Link>
+				{data.site.siteMetadata.menuLinks.map(ass =>
+					<Link to={ass.link} className={styles.navigationLink}>{ass.name}</Link>
+				)}
 			</DropdownLink>
 			<Link to="/blog" className={styles.navigationLink}>References</Link>
 			<Link to="/blog" className={styles.navigationLink}>Blog</Link>
@@ -21,3 +24,17 @@ export default () => (
 		</nav>
 	</header>
 )
+
+export const query = graphql`
+	query SiteQuery {
+		site {
+			siteMetadata {
+				title
+				menuLinks {
+					name
+					link
+				}
+			}
+		}
+	}
+`
