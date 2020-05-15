@@ -8,7 +8,7 @@ import styles from "../components/card.module.css"
 
 export default ({data}) => (
     <Page>
-        <Section title="Blog!"> 
+        <Section title="Keeping up with the Holmes!"> 
             <p>These blog posts offer inspiration and insight, yet never easy answers. 
             It’s a journal of what’s currently on our minds, topics we find valuable 
             and worthy of attention.</p>
