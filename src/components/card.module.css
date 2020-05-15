@@ -31,4 +31,5 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: flex-start;
+    padding-top: 0;
 }

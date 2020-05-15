@@ -55,10 +55,6 @@ a:hover {
     text-decoration-thickness: 2px;
 }
 
-section {
-    padding: 2rem 1rem;
-}
-
 .button {
     background-color: blue;
     color: white;
