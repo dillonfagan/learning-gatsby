@@ -9,12 +9,28 @@ module.exports = {
         title: 'Gatsby Default Starter',
         menuLinks: [
             {
-                name: 'home',
+                name: 'About',
                 link: '/'
             },
             {
-                name: 'page2',
-                link: '/page-2'
+                name: 'Solutions',
+                link: '/'
+            }, 
+            {
+                name: 'References',
+                link: '/'
+            },
+            {
+                name: 'Blog',
+                link: '/blog'
+            },
+            {
+                name: 'Contact',
+                link: '/'
+            },
+            {
+                name: 'Careers',
+                link: '/'
             }
         ]
     },
