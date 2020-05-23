@@ -21,8 +21,8 @@ export default () => (
 					}
 				`}
 				render={data => (
-					data.site.siteMetadata.menuLinks.map(ass =>
-						<Link className={styles.navigationLink} to={ass.link}>{ass.name}</Link>
+					data.site.siteMetadata.menuLinks.map(link =>
+						<Link className={styles.navigationLink} to={link.link}>{link.name}</Link>
 					)
 				)}
 			/>
