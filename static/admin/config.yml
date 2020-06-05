@@ -29,3 +29,9 @@ collections:
             fields:
               - {label: Name, name: name, widget: string}
               - {label: Link, name: link, widget: string}
+              - label: Sublinks
+                name: sublinks
+                widget: list
+                fields:
+                  - {label: Name, name: name, widget: string}
+                  - {label: Link, name: link, widget: string}
