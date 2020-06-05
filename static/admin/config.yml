@@ -15,4 +15,17 @@ collections:
       - {label: "Path", name: "path"}
       - {label: "Date", name: "date", default: "2020-01-01",  widget: "datetime"}
       - {label: "Title", name: "title", default: "New Post", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"} 
+  - name: "netlify-config"
+    label: "Netlify-Config"
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "/src/netlify-config/navigation.json"
+        fields:
+          - label: Links
+            name: navLinks
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Link, name: link, widget: string}

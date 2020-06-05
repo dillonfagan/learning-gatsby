@@ -1,3 +1,28 @@
 {
-  "navLinks": []
+    "navLinks": [
+        {
+            "name": "About",
+            "link": "/"
+        },
+        {
+            "name": "Solutions",
+            "link": "/"
+        }, 
+        {
+            "name": "References",
+            "link": "/"
+        },
+        {
+            "name": "Blog",
+            "link": "/blog"
+        },
+        {
+            "name": "Contact",
+            "link": "/"
+        },
+        {
+            "name": "Careers",
+            "link": "/"
+        }
+    ]
 }

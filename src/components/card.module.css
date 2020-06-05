@@ -1,0 +1,35 @@
+.card {
+    text-align: center;
+    border: 1.75px #808080 solid;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    margin-top: 2rem;
+    width: 20rem;
+    border-radius: 8px;
+}
+
+.card a {
+    margin: 0;
+    color: #272727;
+}
+
+.card h2 {
+    /* background-color: cornflowerblue; */
+    padding: 1rem;
+    margin: 0;
+}
+
+.date {
+    border-top: 1.75px #576fa0 solid;
+    background-color: #d5e3ff;
+    padding: 0.5rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    padding-top: 0;
+}

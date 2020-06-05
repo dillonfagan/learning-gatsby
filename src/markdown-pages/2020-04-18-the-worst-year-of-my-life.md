@@ -14,5 +14,6 @@ title: The Worst Year of My Life
 * No Summer
 * Vacations were cancelled
 * Hearts were broken
+* Murder Hornets
 
 ![ur mum](/uploads/donkey.png "DONKEAH")
