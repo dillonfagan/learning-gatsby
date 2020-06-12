@@ -15,7 +15,7 @@ export default () => (
 								navLinks {
 									link
 									name
-									sublinks {
+									subLinks {
 										link
 										name
 									}
@@ -31,16 +31,15 @@ export default () => (
 	</header>
 )
 
-// TODO: Fix inconsistent link naming scheme
 const renderLinks = (data) =>
 	data.allNetlifyConfigJson.nodes[0].navLinks.map(navLink => {
-		if (navLink.sublinks == null)
+		if (navLink.subLinks == null)
 			return <Link className={styles.navigationLink} to={navLink.link}>{navLink.name}</Link>
 		
 		return (
 			<DropdownLink className={styles.navigationLink} to={navLink.link} text={navLink.name}>
-				{navLink.sublinks.map(sublink => 
-					<Link className={styles.navigationLink} to={sublink.link}>{sublink.name}</Link>
+				{navLink.subLinks.map(subLink => 
+					<Link className={styles.navigationLink} to={subLink.link}>{subLink.name}</Link>
 				)}
 			</DropdownLink>
 		)
