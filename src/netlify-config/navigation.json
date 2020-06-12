@@ -1,34 +1,46 @@
 {
-    "navLinks": [
+  "navLinks": [
+    {
+      "name": "About",
+      "link": "/"
+    },
+    {
+      "name": "Solutions",
+      "link": "/",
+      "sublinks": [
         {
-            "name": "About",
-            "link": "/"
+          "name": "Abolishing authority",
+          "link": "/acab"
         },
         {
-            "name": "Solutions",
-				"link": "/",
-				"sublinks": [
-					{
-						"name": "Policing",
-						"link": "/acab"
-					}
-				]
-        }, 
-        {
-            "name": "References",
-            "link": "/"
+          "name": "Carrot cake",
+          "link": "/carrot-cake"
         },
         {
-            "name": "Blog",
-            "link": "/blog"
+          "name": "Vibe production",
+          "link": "/marianne"
         },
         {
-            "name": "Contact",
-            "link": "/"
-        },
-        {
-            "name": "Careers",
-            "link": "/"
+          "name": "Salt water",
+          "link": "/salt-water"
         }
-    ]
+      ]
+    },
+    {
+      "name": "References",
+      "link": "/"
+    },
+    {
+      "name": "Blog",
+      "link": "/blog"
+    },
+    {
+      "name": "Contact",
+      "link": "/"
+    },
+    {
+      "name": "Careers",
+      "link": "/"
+    }
+  ]
 }
