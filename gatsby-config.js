@@ -41,8 +41,16 @@ module.exports = {
                 name: `markdown-pages`,
                 path: `${__dirname}/src/markdown-pages`,
             },
-        },
+		  },
+		 {
+			 resolve: `gatsby-source-filesystem`,
+			 options: {
+				 name: `netlify-config`,
+				 path: `${__dirname}/src/netlify-config`,
+			 },
+		 },
         `gatsby-transformer-remark`,
-        `gatsby-plugin-netlify-cms`
+		  `gatsby-plugin-netlify-cms`,
+		  `gatsby-transformer-json`
     ]
 }
