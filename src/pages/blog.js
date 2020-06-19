@@ -5,7 +5,6 @@ import { graphql } from 'gatsby'
 import Card from "../components/card"
 import styles from "../components/card.module.css"
 
-
 export default ({data}) => (
     <Page>
         <Section title="Keeping up with the Holmes!"> 

@@ -12,10 +12,15 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{title}}"
     fields:
-      - {label: "Path", name: "path"}
-      - {label: "Date", name: "date", default: "2020-01-01",  widget: "datetime"}
-      - {label: "Title", name: "title", default: "New Post", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"} 
+      - { label: "Path", name: "path" }
+      - {
+          label: "Date",
+          name: "date",
+          default: "2020-01-01",
+          widget: "datetime",
+        }
+      - { label: "Title", name: "title", default: "New Post", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "netlify-config"
     label: "Netlify-Config"
     files:
@@ -27,11 +32,22 @@ collections:
             name: navLinks
             widget: list
             fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Link, name: link, widget: string}
+              - { label: Name, name: name, widget: string }
+              - { label: Link, name: link, widget: string }
               - label: Sublinks
                 name: sublinks
                 widget: list
                 fields:
-                  - {label: Name, name: name, widget: string}
-                  - {label: Link, name: link, widget: string}
+                  - { label: Name, name: name, widget: string }
+                  - { label: Link, name: link, widget: string }
+      - label: "News Articles"
+        name: "articles"
+        file: "/src/netlify-config/articles.json"
+        fields:
+          - label: Articles
+            name: articles
+            widget: list
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Link, name: link, widget: string }
+              - { label: Date, name: date, widget: datetime }
